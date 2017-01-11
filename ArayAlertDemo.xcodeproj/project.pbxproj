@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE38450F1E25EC510032D1BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38450E1E25EC510032D1BA /* main.m */; };
+		CE3845121E25EC510032D1BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3845111E25EC510032D1BA /* AppDelegate.m */; };
+		CE3845151E25EC510032D1BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3845141E25EC510032D1BA /* ViewController.m */; };
+		CE3845181E25EC510032D1BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3845161E25EC510032D1BA /* Main.storyboard */; };
+		CE38451A1E25EC510032D1BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3845191E25EC510032D1BA /* Assets.xcassets */; };
+		CE38451D1E25EC510032D1BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE38451B1E25EC510032D1BA /* LaunchScreen.storyboard */; };
+		CE3845281E25EC520032D1BA /* ArayAlertDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3845271E25EC520032D1BA /* ArayAlertDemoTests.m */; };
+		CE3845391E25ECCB0032D1BA /* libALAlert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3845381E25ECCB0032D1BA /* libALAlert.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE3845241E25EC520032D1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3845021E25EC510032D1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE3845091E25EC510032D1BA;
+			remoteInfo = ArayAlertDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE38450A1E25EC510032D1BA /* ArayAlertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArayAlertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE38450E1E25EC510032D1BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE3845101E25EC510032D1BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE3845111E25EC510032D1BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE3845131E25EC510032D1BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE3845141E25EC510032D1BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE3845171E25EC510032D1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE3845191E25EC510032D1BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE38451C1E25EC510032D1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE38451E1E25EC510032D1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3845231E25EC520032D1BA /* ArayAlertDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArayAlertDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3845271E25EC520032D1BA /* ArayAlertDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArayAlertDemoTests.m; sourceTree = "<group>"; };
+		CE3845291E25EC520032D1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3845381E25ECCB0032D1BA /* libALAlert.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libALAlert.a; sourceTree = "<group>"; };
+		CE38453B1E25ED160032D1BA /* ALAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAlert.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3845071E25EC510032D1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3845391E25ECCB0032D1BA /* libALAlert.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3845201E25EC520032D1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3845011E25EC510032D1BA = {
+			isa = PBXGroup;
+			children = (
+				CE38450C1E25EC510032D1BA /* ArayAlertDemo */,
+				CE3845261E25EC520032D1BA /* ArayAlertDemoTests */,
+				CE38450B1E25EC510032D1BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE38450B1E25EC510032D1BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE38450A1E25EC510032D1BA /* ArayAlertDemo.app */,
+				CE3845231E25EC520032D1BA /* ArayAlertDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE38450C1E25EC510032D1BA /* ArayAlertDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CE3845321E25EC5C0032D1BA /* AppDelegate */,
+				CE3845331E25EC660032D1BA /* Controllers */,
+				CE3845341E25EC710032D1BA /* Storyboard */,
+				CE38450D1E25EC510032D1BA /* Supporting Files */,
+			);
+			path = ArayAlertDemo;
+			sourceTree = "<group>";
+		};
+		CE38450D1E25EC510032D1BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE3845371E25ECB30032D1BA /* Other */,
+				CE3845361E25ECA70032D1BA /* Main */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE3845261E25EC520032D1BA /* ArayAlertDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE3845271E25EC520032D1BA /* ArayAlertDemoTests.m */,
+				CE3845291E25EC520032D1BA /* Info.plist */,
+			);
+			path = ArayAlertDemoTests;
+			sourceTree = "<group>";
+		};
+		CE3845321E25EC5C0032D1BA /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CE3845101E25EC510032D1BA /* AppDelegate.h */,
+				CE3845111E25EC510032D1BA /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CE3845331E25EC660032D1BA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE3845131E25EC510032D1BA /* ViewController.h */,
+				CE3845141E25EC510032D1BA /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CE3845341E25EC710032D1BA /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CE3845161E25EC510032D1BA /* Main.storyboard */,
+				CE38451B1E25EC510032D1BA /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		CE3845361E25ECA70032D1BA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CE3845191E25EC510032D1BA /* Assets.xcassets */,
+				CE38451E1E25EC510032D1BA /* Info.plist */,
+				CE38450E1E25EC510032D1BA /* main.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		CE3845371E25ECB30032D1BA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CE38453A1E25ED040032D1BA /* AryaAlertLibrary */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		CE38453A1E25ED040032D1BA /* AryaAlertLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				CE38453B1E25ED160032D1BA /* ALAlert.h */,
+				CE3845381E25ECCB0032D1BA /* libALAlert.a */,
+			);
+			name = AryaAlertLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE3845091E25EC510032D1BA /* ArayAlertDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE38452C1E25EC520032D1BA /* Build configuration list for PBXNativeTarget "ArayAlertDemo" */;
+			buildPhases = (
+				CE3845061E25EC510032D1BA /* Sources */,
+				CE3845071E25EC510032D1BA /* Frameworks */,
+				CE3845081E25EC510032D1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArayAlertDemo;
+			productName = ArayAlertDemo;
+			productReference = CE38450A1E25EC510032D1BA /* ArayAlertDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE3845221E25EC520032D1BA /* ArayAlertDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE38452F1E25EC520032D1BA /* Build configuration list for PBXNativeTarget "ArayAlertDemoTests" */;
+			buildPhases = (
+				CE38451F1E25EC520032D1BA /* Sources */,
+				CE3845201E25EC520032D1BA /* Frameworks */,
+				CE3845211E25EC520032D1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE3845251E25EC520032D1BA /* PBXTargetDependency */,
+			);
+			name = ArayAlertDemoTests;
+			productName = ArayAlertDemoTests;
+			productReference = CE3845231E25EC520032D1BA /* ArayAlertDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3845021E25EC510032D1BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Aryavrat;
+				TargetAttributes = {
+					CE3845091E25EC510032D1BA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 952ZU65CH6;
+						ProvisioningStyle = Automatic;
+					};
+					CE3845221E25EC520032D1BA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 952ZU65CH6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE3845091E25EC510032D1BA;
+					};
+				};
+			};
+			buildConfigurationList = CE3845051E25EC510032D1BA /* Build configuration list for PBXProject "ArayAlertDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE3845011E25EC510032D1BA;
+			productRefGroup = CE38450B1E25EC510032D1BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3845091E25EC510032D1BA /* ArayAlertDemo */,
+				CE3845221E25EC520032D1BA /* ArayAlertDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE3845081E25EC510032D1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE38451D1E25EC510032D1BA /* LaunchScreen.storyboard in Resources */,
+				CE38451A1E25EC510032D1BA /* Assets.xcassets in Resources */,
+				CE3845181E25EC510032D1BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3845211E25EC520032D1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3845061E25EC510032D1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3845151E25EC510032D1BA /* ViewController.m in Sources */,
+				CE3845121E25EC510032D1BA /* AppDelegate.m in Sources */,
+				CE38450F1E25EC510032D1BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE38451F1E25EC520032D1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3845281E25EC520032D1BA /* ArayAlertDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE3845251E25EC520032D1BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE3845091E25EC510032D1BA /* ArayAlertDemo */;
+			targetProxy = CE3845241E25EC520032D1BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE3845161E25EC510032D1BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3845171E25EC510032D1BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE38451B1E25EC510032D1BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE38451C1E25EC510032D1BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE38452A1E25EC520032D1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE38452B1E25EC520032D1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE38452D1E25EC520032D1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 952ZU65CH6;
+				INFOPLIST_FILE = ArayAlertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ArayAlertDemo",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arya.ArayAlertDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE38452E1E25EC520032D1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 952ZU65CH6;
+				INFOPLIST_FILE = ArayAlertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ArayAlertDemo",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = arya.ArayAlertDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE3845301E25EC520032D1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 952ZU65CH6;
+				INFOPLIST_FILE = ArayAlertDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arya.ArayAlertDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArayAlertDemo.app/ArayAlertDemo";
+			};
+			name = Debug;
+		};
+		CE3845311E25EC520032D1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 952ZU65CH6;
+				INFOPLIST_FILE = ArayAlertDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arya.ArayAlertDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArayAlertDemo.app/ArayAlertDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3845051E25EC510032D1BA /* Build configuration list for PBXProject "ArayAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE38452A1E25EC520032D1BA /* Debug */,
+				CE38452B1E25EC520032D1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE38452C1E25EC520032D1BA /* Build configuration list for PBXNativeTarget "ArayAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE38452D1E25EC520032D1BA /* Debug */,
+				CE38452E1E25EC520032D1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE38452F1E25EC520032D1BA /* Build configuration list for PBXNativeTarget "ArayAlertDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3845301E25EC520032D1BA /* Debug */,
+				CE3845311E25EC520032D1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3845021E25EC510032D1BA /* Project object */;
+}
